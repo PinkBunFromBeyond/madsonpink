@@ -1,0 +1,73 @@
+body{
+	background-image: url("background.jpg"); /* 3840 x 2160 resize incoming */
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	text-transform: uppercase;
+	font-family: 'Yantramanav', sans-serif;
+}
+
+.logo > img{
+	width: 90%;
+	margin-bottom: 1.5em;
+}
+
+.brand {
+	font-family: 'Archivo Black', sans-serif;
+	color: white;
+}
+
+.container{
+	max-width: 25em;
+	margin: 17vw auto auto;
+	border: 3px solid white;
+	background-color: rgba(215, 122, 166, 0.0);
+}
+
+.upper-nav > .brand > div{
+	text-align: center;
+}
+
+.nav-wrapper{
+	justify-content: space-between;
+	padding: 0.5em;
+	text-align: center;
+	text-justify: inter-character;
+}
+
+.nav-wrapper div{
+	font-size: 0.9em;
+	margin: 0.5em;
+}
+
+.nav-link-wrapper{
+	height: 1.3em;
+}
+
+.nav-link-wrapper a{
+	color: white;
+	text-decoration: none;
+}
+
+.nav-link-wrapper:hover a{
+		border-bottom: 0.15em solid #8a8a8a;
+		color: #8a8a8a;
+		
+	}
+
+@media only screen and (min-width: 767px){
+	.nav-link-wrapper a{
+		color: white;
+		text-decoration: none;
+		border-bottom: 0.15em solid transparent;
+		transition: border-bottom 0.5s;
+		transition: color 0.2s;
+	}
+
+	.nav-link-wrapper:hover a{
+		border-bottom: 0.15em solid #8a8a8a;
+		color: #8a8a8a;
+		
+	}
+}
