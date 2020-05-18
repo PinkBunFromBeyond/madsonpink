@@ -1,5 +1,5 @@
 body{
-	background-image: url("background.jpg"); /* 3840 x 2160 resize incoming */
+	background-image: url("background.jpg");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-position: center;
