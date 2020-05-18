@@ -3,7 +3,7 @@ body{
 	background-repeat: repeat;
 	background-attachment: fixed;
 	background-position: center;
-	background-size: cover;
+	background-size: auto 100%;
 	text-transform: uppercase;
 	font-family: 'Yantramanav', sans-serif;
 }
@@ -59,6 +59,7 @@ body{
 @media only screen and (min-width: 767px){
 	body{
 		background-repeat: no-repeat;
+		background-size: cover;
 	}
 	.nav-link-wrapper a{
 		color: white;
