@@ -8,6 +8,51 @@ body{
 	text-transform: uppercase;
 	font-family: 'Yantramanav', sans-serif;
 }
+.inkbunny-bodytitle {
+	text-align: center;
+	color: white;
+}
+
+.inkbunny-bodytitle a{
+	text-decoration: none;
+	color: white;
+}
+
+.inkbunny-body {
+	margin: 1em 0.65em 1em 1em;
+	text-transform: none;
+	max-height: 10em;
+	overflow-y: scroll;
+	text-align: justify;
+	color: #FFF;
+}
+
+.inkbunny-body a{
+	color: white;
+}
+.inkbunny-body a:hover{
+	color: #8a8a8a;
+}
+
+/*Scrollbar*/
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Scrollbar track */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #FFF;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #888;
+}
 
 .logo > img{
 	width: 90%;
@@ -72,51 +117,6 @@ body{
 	margin: 1em;
 }
 
-.inkbunny-bodytitle {
-	text-align: center;
-	color: white;
-}
-
-.inkbunny-bodytitle a{
-	text-decoration: none;
-	color: white;
-}
-
-.inkbunny-body {
-	margin: 1em 0.65em 1em 1em;
-	text-transform: none;
-	max-height: 10em;
-	overflow-y: scroll;
-	text-align: justify;
-	color: #FFF;
-}
-
-.inkbunny-body a{
-	color: white;
-}
-.inkbunny-body a:hover{
-	color: #8a8a8a;
-}
-
-/*Scrollbar*/
-::-webkit-scrollbar {
-  width: 5px;
-}
-
-/* Scrollbar track */
-::-webkit-scrollbar-track {
-  background: transparent;
-}
-
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: #FFF;
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: #888;
-}
 
 @media only screen and (min-width: 767px){
 	.nav-link-wrapper a{
